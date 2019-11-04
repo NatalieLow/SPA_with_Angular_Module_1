@@ -11,7 +11,7 @@
 
   		if ($scope.lunch_list === ""){
   			$scope.message = "Please enter data first";
-  		} else if (list_length < 3){
+  		} else if (list_length < 4){
   			$scope.message = "Enjoy!";
   		} else {
   			$scope.message = "Too much!";
